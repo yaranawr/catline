@@ -16,7 +16,6 @@ Go :)
 
 ### Instalation
 
-git clone this repository:
 ```
 go install github.com/yannawr/catline@latest
 ```
