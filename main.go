@@ -91,7 +91,7 @@ func countLinesAllFiles() {
 
 			if lineCount > 0 {
 				foundFiles = true
-				fmt.Printf("%-15s %d\n", path, lineCount)
+				fmt.Printf("%-20s %d\n", path, lineCount)
 			}
 		}
 		return nil
@@ -121,7 +121,7 @@ func countLinesWithExcludedExtension() {
 
 				if lineCount > 0 {
 					foundFiles = true
-					fmt.Printf("%-15s %d\n", path, lineCount)
+					fmt.Printf("%-20s %d\n", path, lineCount)
 				}
 			}
 		}
@@ -150,7 +150,7 @@ func countLinesWithExtension() {
 
 				if lineCount > 0 {
 					foundFiles = true
-					fmt.Printf("%-15s %d\n", path, lineCount)
+					fmt.Printf("%-20s %d\n", path, lineCount)
 				}
 			}
 		}
