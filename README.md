@@ -18,7 +18,7 @@ Go :)
 
 git clone this repository:
 ```
-go install https://github.com/yannawr/catline
+go install github.com/yannawr/catline@latest
 ```
 
 ## Commands
