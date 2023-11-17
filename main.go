@@ -139,6 +139,11 @@ func countLinesWithExtension() {
 	filepath.Walk(directory, func(path string, info os.FileInfo, err error) error {
 		if !info.IsDir() && filepath.Dir(path) == directory {
 			extension := strings.ToLower(filepath.Ext(path))
+
+			if extension == "" {
+				return nil
+			}
+
 			extension = strings.Replace(extension, ".", "", -1)
 
 			if strings.Contains(strings.ToLower(extensionList), extension) {
