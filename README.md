@@ -6,8 +6,6 @@ Display the number of lines in files within a directory. That's literally it.
 
 You can choose which file extensions you want the script to read or exclude the extensions of files you don't want to be included.
 
-There's a bash version [here](https://github.com/yannawr/catline-bash).
-
 ## Requirements:
 
 Go :)
@@ -17,7 +15,7 @@ Go :)
 ### Instalation
 
 ```
-go install github.com/yannawr/catline@latest
+go install github.com/0xCAFEini/catline@latest
 ```
 
 ## Commands
