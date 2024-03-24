@@ -1,3 +1,3 @@
-module github.com/yannawr/catline
+module github.com/0xCAFEini/catline
 
 go 1.21.3
