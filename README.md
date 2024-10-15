@@ -15,7 +15,7 @@ Go :)
 ### Instalation
 
 ```
-go install github.com/0xCAFEini/catline@latest
+go install github.com/yaranawr/catline@latest
 ```
 
 ## Commands
